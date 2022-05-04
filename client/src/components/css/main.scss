@@ -1,0 +1,33 @@
+.main {
+  padding: 3rem;
+  display: flex;
+
+  .main-section {
+    width: 100%;
+
+    .sec-changer {
+      width: fit-content;
+      display: flex;
+      align-self: center;
+      margin: auto;
+
+      .btn {
+        background-color: rgb(242, 242, 242);
+        border: none;
+        border-radius: 10px;
+        font-size: 18px;
+        width: 200px;
+        margin: 0.5rem;
+        font-weight: bold;
+        padding: 1rem;
+        cursor: pointer;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .active {
+        color: white;
+        background-color: #3e008c;
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+.KYC-details {
+  max-width: 900px;
+  margin: 1rem auto;
+
+  .head {
+    width: fit-content;
+    margin-bottom: 1rem;
+
+    .underline {
+      width: 50%;
+      height: 5px;
+      border-radius: 10px;
+    }
+  }
+
+  form {
+    .message {
+      margin: 1rem 0.5rem;
+    }
+    input[type="file"] {
+      display: none;
+    }
+
+    .doc-upload {
+      display: flex;
+      align-items: center;
+    }
+
+    .custom-file-upload {
+      color: white;
+      font-weight: 500;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-radius: 10px;
+      border: none;
+      margin-right: 1rem;
+    }
+    
+    .submit {
+      color: white;
+      font-weight: 500;
+      padding: 1rem 3rem;
+      cursor: pointer;
+      border-radius: 10px;
+      border: none;
+      font-size: 20px;
+      margin: 2rem auto;
+      display: flex;
+      align-self: center;
+    }
+    .image-upload {
+      width: fit-content;
+      margin: 1rem auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // background-color: red;
+      justify-content: center;
+
+      .user-profile {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+        background-color: rgb(199, 199, 199);
+      }
+
+      .upload {
+        width: 100%;
+      }
+    }
+
+    .inp-field {
+      padding: 1rem;
+      margin: 0.5rem;
+      font-size: 18px;
+      font-family: "Poppins", sans-serif;
+      border-radius: 10px;
+      border: 1px solid rgb(176, 176, 176);
+      outline-color: #3e008c;
+      width: 98%;
+    }
+
+    .basic {
+      display: flex;
+      flex-wrap: wrap;
+
+      .inp-field {
+        width: 48%;
+      }
+    }
+  }
+}

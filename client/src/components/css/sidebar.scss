@@ -1,0 +1,43 @@
+.sidebar {
+  background-color: rgb(242, 242, 242);
+  border-radius: 10px;
+  padding: 1rem;
+  width: fit-content;
+
+  .head-row,
+  .row {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+
+    .head {
+      color: #3e008c;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+
+  .row {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+    .name {
+      display: flex;
+      align-items: center;
+      font-weight: 500;
+
+      img {
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+    .interest {
+      color: #12905a;
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,116 @@
+.KYC-details {
+  max-width: 900px;
+  margin: 1rem auto;
+}
+
+.KYC-details .head {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 1rem;
+}
+
+.KYC-details .head .underline {
+  width: 50%;
+  height: 5px;
+  border-radius: 10px;
+}
+
+.KYC-details form .message {
+  margin: 1rem 0.5rem;
+}
+
+.KYC-details form input[type="file"] {
+  display: none;
+}
+
+.KYC-details form .doc-upload {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.KYC-details form .custom-file-upload {
+  color: white;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  margin-right: 1rem;
+}
+
+.KYC-details form .submit {
+  color: white;
+  font-weight: 500;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.KYC-details form .image-upload {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.KYC-details form .image-upload .user-profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  background-color: #c7c7c7;
+}
+
+.KYC-details form .image-upload .upload {
+  width: 100%;
+}
+
+.KYC-details form .inp-field {
+  padding: 1rem;
+  margin: 0.5rem;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  border: 1px solid #b0b0b0;
+  outline-color: #3e008c;
+  width: 98%;
+}
+
+.KYC-details form .basic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.KYC-details form .basic .inp-field {
+  width: 48%;
+}
+/*# sourceMappingURL=kycform.css.map */

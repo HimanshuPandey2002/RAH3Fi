@@ -1,0 +1,57 @@
+.sidebar {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 1rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.sidebar .head-row,
+.sidebar .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sidebar .head-row .head,
+.sidebar .row .head {
+  color: #3e008c;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sidebar .row {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.sidebar .row .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+}
+
+.sidebar .row .name img {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.sidebar .row .interest {
+  color: #12905a;
+  font-weight: bold;
+}
+/*# sourceMappingURL=sidebar.css.map */
